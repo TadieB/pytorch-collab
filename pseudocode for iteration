@@ -1,0 +1,15 @@
+for epoch in range(num_epochs):
+    #Training phase
+    for batch in train_loader:
+        # generate predictions
+        # calculate loss
+        # compute gradients
+        # update weights 
+        # reset gradients
+    #Validation phase
+    for batch in val_loader:
+      # generate predictions
+      # calculate loss 
+      # calculate metrics (accuracy etc.)
+    #Calculate average validation loss & metrics
+    #Log epoch, loss & metrics for inspection
